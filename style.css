@@ -97,6 +97,9 @@ body {
 
 /* हेडर और नेविगेशन बटन्स */
 .portfolio-header {
+    display: flex;
+    justify-content: center;
+    fles-wrap: wrap;
     text-align: center;
     margin-bottom: 45px;
 }
