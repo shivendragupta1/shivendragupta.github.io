@@ -131,6 +131,9 @@ body {
     font-weight: 700;
     letter-spacing: 0.5px;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    justify-content: center;
+    fles-wrap: wrap;
 }
 
 .nav-btn:hover, .nav-btn.active {
