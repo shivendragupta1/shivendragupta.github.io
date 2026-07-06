@@ -120,11 +120,15 @@ body {
     gap: 12px;
 }
 
+.navauto{
+    background-color: transparent;
+
+}
 .nav-btn {
     align-items:center;
     padding: 10px 20px;
     border: 2px solid #112233;
-    background-color: transparent;
+    
     color: #112233;
     cursor: pointer;
     border-radius: 30px; /* कैप्सूल स्टाइल बटन्स */
@@ -138,7 +142,7 @@ body {
 }
 
 .nav-btn:hover, .nav-btn.active {
-    background-color: #112233;
+   
     color: #ffcc00; /* होवर करने पर गोल्ड टेक्स्ट */
     box-shadow: 0 4px 12px rgba(17, 34, 51, 0.2);
 }
