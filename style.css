@@ -121,6 +121,7 @@ body {
 }
 
 .nav-btn {
+    align-items:center;
     padding: 10px 20px;
     border: 2px solid #112233;
     background-color: transparent;
