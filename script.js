@@ -6,6 +6,6 @@ const meraCard = document.getElementById('web-project');
 meraButton.addEventListener('click', function() {
     
     // 3. जादू! स्क्रीन पर एक मैसेज दिखाओ
-    alert("बटन ने काम कर दिया शिवेंद्र भाई!");
+    alert("बटन ने काम कर दिया शिवेंद्र भाई");
     
 });
