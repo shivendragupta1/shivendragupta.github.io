@@ -131,6 +131,7 @@ body {
     box-shadow: 5px 5px 5px 5px;
    position: relative;
     left:30px;
+    width:60px;
 }
 
 .nav-btn {
