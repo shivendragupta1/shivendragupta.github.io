@@ -7,7 +7,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); /* सॉफ्ट और आकर्षक ग्रेडिएंट बैकग्राउंड */
+    background: linear-gradient(135deg, #0d62e2 0%, #2f3c52 100%);
+    /* सॉफ्ट और आकर्षक ग्रेडिएंट बैकग्राउंड */
     padding: 40px 20px;
     display: flex;
     align-items: center;
@@ -22,14 +23,16 @@ body {
     width: 100%;
     background-color: #ffffff;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-    border-radius: 16px; /* ज़्यादा स्मूथ कॉर्नर्स */
+    border-radius: 16px;
+    /* ज़्यादा स्मूथ कॉर्नर्स */
     overflow: hidden;
 }
 
 /* लेफ्ट साइडबार डिजाइन - डार्क रॉयल थीम (Dark Teal) */
 .sidebar {
     width: 28%;
-    background: linear-gradient(180deg, #717b85 0%, #050607 100%); /* गहरा और प्रीमियम डार्क बैकग्राउंड */
+    background: linear-gradient(180deg, #79442c 0%, #659bd4 100%);
+    /* गहरा और प्रीमियम डार्क बैकग्राउंड */
     padding: 50px 30px;
     display: flex;
     flex-direction: column;
@@ -52,8 +55,10 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    color: #ffcc00; /* गोल्ड कलर */
-    border: 3px solid #ffcc00; /* आकर्षक गोल्ड बॉर्डर */
+    color: #ffcc00;
+    /* गोल्ड कलर */
+    border: 3px solid #ffcc00;
+    /* आकर्षक गोल्ड बॉर्डर */
     box-shadow: 0 0 15px rgba(255, 204, 0, 0.3);
 }
 
@@ -67,7 +72,8 @@ body {
 
 .tagline {
     font-size: 0.8rem;
-    color: #ffcc00; /* गोल्ड हाइलाइट */
+    color: #ffcc00;
+    /* गोल्ड हाइलाइट */
     font-weight: 700;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -92,7 +98,7 @@ body {
 .main-content {
     width: 72%;
     padding: 50px;
-    background-color:#053f29e8;
+   background: linear-gradient(180deg, #60be66e7 0%, #421033ea 100%);
 }
 
 /* हेडर और नेविगेशन बटन्स */
@@ -111,10 +117,13 @@ body {
     color: #112233;
     margin-bottom: 25px;
     position: relative;
+    left: -40px;
     background-color: #0fb729c7;
     border-radius: 30px;
     padding: 0px;
     margin: 0px;
+    border: 2px solid #e4f2ff;
+    box-shadow: 5px 5px 5px 5px;
     width: 320px;
 }
 
@@ -123,23 +132,26 @@ body {
     justify-content: center;
     fles-wrap: wrap;
     gap: 12px;
+    margin: 0%;
+    padding: 0%;
 }
 
-.navauto{
+.navauto {
     background-color: #ffcc00;
- color: #112233;
+    color: #112233;
     box-shadow: 5px 5px 5px 5px;
-   position: relative;
+    position: relative;
     left: 30px;
-    width: 45px;
+    width: 90px;
+    border: 2px solid #e4f2ff;
 }
 
 .nav-btn {
-    align-items:center;
+    align-items: center;
     padding: 10px 20px;
-    border: 2px solid #112233;
     cursor: pointer;
-    border-radius: 30px; /* कैप्सूल स्टाइल बटन्स */
+    border-radius: 30px;
+    /* कैप्सूल स्टाइल बटन्स */
     font-size: 0.85rem;
     font-weight: 700;
     letter-spacing: 0.5px;
@@ -149,8 +161,9 @@ body {
     fles-wrap: wrap;
 }
 
-.nav-btn:hover, .nav-btn.active {
-    box-shadow: 0 4px 12px rgba(17, 34, 51, 0.2);
+.nav-btn:hover,
+.nav-btn.active navauto {
+    box-shadow: 0 4px 12px rgba(53, 151, 53, 0.2);
 }
 
 /* प्रोजेक्ट्स ग्रिड लेआउट */
@@ -173,7 +186,8 @@ body {
 .project-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 24px rgba(19, 38, 64, 0.15);
-    border-color: #ffcc00; /* होवर होने पर बॉर्डर गोल्ड हो जाएगा */
+    border-color: #ffcc00;
+    /* होवर होने पर बॉर्डर गोल्ड हो जाएगा */
 }
 
 /* कार्ड्स के अंदर का इमेज बॉक्स - मॉडर्न ग्रेडिएंट्स */
@@ -190,14 +204,26 @@ body {
 }
 
 /* हर कार्ड के लिए अलग और प्रीमियम कलर ग्रेडिएंट्स */
-.landing-page-bg { background: linear-gradient(135deg, #3a7bd5 0%, #3a6073 100%); }
-.data-bg { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
-.seo-bg { background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%); }
-.network-bg { background: linear-gradient(135deg, #654ea3 0%, #eaafc8 100%); }
+.landing-page-bg {
+    background: linear-gradient(135deg, #3a7bd5 0%, #3a6073 100%);
+}
+
+.data-bg {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+.seo-bg {
+    background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+}
+
+.network-bg {
+    background: linear-gradient(135deg, #654ea3 0%, #eaafc8 100%);
+}
 
 .card-info {
     padding: 20px;
-    text-align: left; /* लेफ्ट अलाइनमेंट से ज़्यादा प्रोफेशनल दिखता है */
+    text-align: left;
+    /* लेफ्ट अलाइनमेंट से ज़्यादा प्रोफेशनल दिखता है */
     background-color: #ffffff;
 }
 
@@ -218,18 +244,22 @@ body {
     .portfolio-wrapper {
         flex-direction: column;
     }
+
     .sidebar {
         width: 100%;
         text-align: center;
         padding: 40px 20px;
     }
+
     .profile-img-placeholder {
         margin: 0 auto 15px auto;
     }
+
     .main-content {
         width: 100%;
         padding: 30px 20px;
     }
+
     .projects-grid {
         grid-template-columns: 1fr;
     }
